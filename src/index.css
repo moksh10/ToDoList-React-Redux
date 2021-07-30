@@ -1,0 +1,31 @@
+*
+{
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+html
+{
+  scroll-behavior: smooth;
+
+}
+html::-webkit-scrollbar
+{
+  background-color: rgb(252, 147, 147);
+  width:2vmin;
+  height:auto;
+  border-radius: 4vmin;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #EB2548;
+  background-repeat: no-repeat;
+  
+}
+::selection
+{
+  color:white;
+  background-color: rgb(255, 71, 71);
+}
+
+
